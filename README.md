@@ -1,6 +1,5 @@
 # WELCOME TO CLICKER LEAGUE!
 
-WARNING: 
 NOTE: If you have little or no experience with Zenith Clicker or TETR.IO's Quick Play 2, it is **highly recommended** to brush up on those first! Otherwise, it'll be _very hard_ to figure out how this works.
 [tetr.io](https://tetr.io)
 [Zenith Clicker](https://github.com/MrZ626/ZenithClicker)
