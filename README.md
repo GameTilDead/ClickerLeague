@@ -72,54 +72,71 @@ QP(2) = Quick Play (the new one - a distinction is made when referring to the ol
 \-
 
 attack: Core mechanic that boosts altitude in calibration and decides who wins in the Clicker League
+//
 _"The only reason attack exists in ZC is because, in tetrio, you would actually send lines to other players and it determined several other things."_
 
 b2b: "Back-to-Back"; the number of times you've submitted the correct combo on the first try; commonly formatted as "N b2b" or "b2b xN"
+//
 _"ZC implemented a max b2b after **someone** introduced an overpowered strategy with rDP."_
 
 break: Reset b2b by making a mistake before submitting the correct combo
+//
 _"You don't wanna break before reaching 4 b2b, that just wastes time."_
 
 commit: Submit a mod combo
+//
 _"Committing wrong is worse each time you do it consecutively, and gets worse over time as well."_
 
 cs: "Climb speed"; a mechanic in calibration derived from ZC/tetrio that determines the altitude you gain over time and per correct submission, also known as "rank"
+//
 _"that super broken mechanic where you gain a ton of cs"_
 
 combo: A combination of cards in any context.
+//
 _"Why has ZC's daily challenge been the same combo 3 times within two months??"_
 
 damage: Reduction in the hp bar
+//
 _"It's necessary for progression that you take more damage over time."_
 
 exp: Progress in the cs bar, also known as "xp"
+//
 _"Each rank requires 4 more xp than the last to finish. Unless..."_
 
 hp: The amount of damage you can take before losing
+//
 _"The hp bar kinda looks like a stylistic choice when full, the way some people see it. They don't know it's the hp bar until you take damage."_
 
 int: Mess up, usually used in context of something significant, often before or during it; also known as "throw"
+//
 _"The whole point of Divine Rejection is inting Floor 10. The closer to the barrier you stop at, the better your achievement badge."_
 
 margin (time): The time after the first time-based effect; in ZC this is "fatigue" and it can also refer to the individual effects or times they happen
+//
 _"Margin time makes both TL and CL matches a whole lot more interesting. Who'd want the round to drag on for 10 minutes without a sign of ending?"_
 
 pass: Submit the correct combo; used with "(im)perfect" when talking about whether or not a mistake was made prior to the combo being correct
+//
 _"I hate getting 'Pass 12 times imperfectly' when reviving because it's annoying and sometimes impossible!"_
 
 prompt: The current task you need to complete in order to continue or finish a revival in (r/u)DP; also known as "task"
+//
 _"Did you know certain prompts can only appear after you've reached a certain floor in ZC?"_
 
 quest: A required combo to commit; your gateway to attack
+//
 _"GTD has had the world record for shortest time to pass 40 quests for a long time now"_
 
 spike: A large amount of attack produced at once or very quickly; is also a verb for producing said attack
+//
 _"Beware of those who can do a 26 spike on their mouse, and especially those who can switch to keyboard and do the same without a sweat."_
 
 surge: The attack produced from breaking at least 4 b2b
+//
 _"The faster you play, the less surge is necessary to annihilate your opponent."_
 
 tank: Take damage, especially if by choice
+//
 _"If you see your opponent send a strong attack while struggling, it's sometimes best to tank it and counterattack instead of cancelling it out."_
 
 ### Clicking the League
