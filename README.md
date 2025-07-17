@@ -159,6 +159,8 @@ This is your goodbye to the Zenith Tower. Given unlimited health, you must reach
 <summary>
 (SPOILER) How can you increase your estimated CR?
 </summary>
+---
+
 You can practice with ZC if you don't feel ready to enter the League with your current skill. Now, onto what the calibration tracks:
 
 First and foremost, not dying. Even though you are invincible, your health can still reach 0 and the calibration will take note of when, how many times, and how long you did so for.
@@ -170,6 +172,8 @@ The amount of time you spend is very important, especially given the above. The 
 Having a higher rate of perfect passes will increase your estimated CR. Not the number, the percentage - I see you, plonkers.
 
 While less considered, b2b is still a factor that contributes to your estimation. The more you manage to build at once, the better.
+
+---
 </details>
 
 ### Clicking the League
