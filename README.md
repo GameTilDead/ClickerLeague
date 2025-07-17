@@ -1,5 +1,7 @@
 # WELCOME TO CLICKER LEAGUE!
 
+WARNING: Spoilers (including for ZC), but all technically reachable within your first CL match.
+
 NOTE: If you have little or no experience with Zenith Clicker or TETR.IO's Quick Play 2, it is **highly recommended** to brush up on those first! Otherwise, it'll be _very hard_ to figure out how this works.
 [tetr.io](https://tetr.io)
 [Zenith Clicker](https://github.com/MrZ626/ZenithClicker)
@@ -56,11 +58,15 @@ DP: Duo ("dual player") / The Lovers
 
 "r" or "u" can appear before a shortened mod to indicate its reverse or ultra reverse version, respectively; for example rEX = reverse expert, uIN = ultra invisible
 
+Check the "Mods" section under "Mechanics" for info on what these do!
+
 \-
 
 Other abbreviations:
 
 CL = Clicker League
+
+CR = Clicker Rating
 
 ZC = Zenith Clicker
 
@@ -81,6 +87,10 @@ _"ZC implemented a max b2b after **someone** introduced an overpowered strategy 
 break: Reset b2b by making a mistake before submitting the correct combo
 //
 _"You don't wanna break before reaching 4 b2b, that just wastes time."_
+
+burn: Card effect in AS where, if you flip it, other cards get flipped
+//
+_"Most players who don't know **real magic** find it impossible to undo the consequences of flipping a burnt card in rAS."_
 
 commit: Submit a mod combo
 //
@@ -138,6 +148,30 @@ tank: Take damage, especially if by choice
 //
 _"If you see your opponent send a strong attack while struggling, it's sometimes best to tank it and counterattack instead of cancelling it out."_
 
+wound: The result of flipping a burnt card in rAS
+//
+_"It's funny to still call it a 'wound' in uAS."_
+
+### Calibration
+This is your goodbye to the Zenith Tower. Given unlimited health, you must reach Floor 10 once while you are assessed based on your performance. There will be no mods or fatigue - just a final climb and the building anticipation of playing your first matches in the League. After reaching Floor 10, you can check your (very roughly) estimated CR and other stats in the respective page.
+
+<details>
+    <summary> (SPOILER) How can you increase your estimated CR? </summary>
+
+    You can practice with ZC if you don't feel ready to enter the League with your current skill. Now, onto what the calibration tracks:
+
+    First and foremost, not dying. Even though you are invincible, your health can still reach 0 and the calibration will take note of when, how many times, and how long you did so for.
+
+    If you manage to enter GIGASPEED and *especially* TERASPEED, you will be seen as more skilled and will be ranked even higher if you reach Floor 10 with either.
+
+    The amount of time you spend is very important, especially given the above. The longer you take, the lower ranked you will be. Speed is highly rewarded.
+
+    Having a higher rate of perfect passes will increase your estimated CR. Not the number, the percentage - I see you, plonkers.
+
+    While less considered, b2b is still a factor that contributes to your estimation. The more you manage to build at once, the better.
+
+</details>
+
 ### Clicking the League
 NOTE: Given the current popularity of ZC and CL, it might be difficult or even impossible to find a good match sometimes. As the community grows, this will slowly be resolved (invite people to play if you enjoy CL!), but for now, you might have unfair matches.
 
@@ -155,10 +189,54 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 + 2'00" - _It's harder to fight..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
 + 2'30" - _You feel yourself losing focus..._
-+ 3'00" - _It seems as though the opponent could eliminate you much more easily..._ The surge divider becomes 7: `mods = floor(surge/7)`
++ 3'00" - _Vulnerability becomes more apparent..._ The surge divider becomes 7: `mods = floor(surge/7)`
 + 3'30" - _The power within both you and your opponent overwhelms you..._ The surge divider becomes 6.2.
 + 4'00" - _Your volition diminishes..._ Sent mods are buffed. Additionally, the surge divider is now 5.5.
 + 4'30" - _Fighting feels like a heavy task..._
 + 4'40" - _You can't keep up much longer..._
 + 4'50" - _The end is near..._
 + 5'00" - **_YOUR FINAL MOMENTS ARE UPON YOU._** One mistake can cost you the round.
+
+## Mechanics
+### Mods
+Each mod changes the gameplay a bit, and can be combined for high difficulty. Mod tiers are as follows:
+
+- Normal
+- Reverse
+- Ultra
+
+The 9 base mods are fully combinable with any amount of normals and reverses totaling up to 9. Only one tier can be applied per mod and, when applicable, ultra mods replace reverse mods. Here are some examples of possible and impossible combinations:
+
+Possible: NH rAS, EX MS VL DH, rGV rAS, uEX NH MS GV VL DH IN AS DP
+
+Impossible: EX NH rNH AS (cannot have two tiers of the same mod), uEX rAS DP (if ultra is available, reverse cannot be applied)
+
+\-
+
+With combos out of the way, here's what each mod actually does:
+
++ EX: Cards a bit closer together, deselected after any commit, and are selected on the end of an input. If AS is active, the keybinds won't show.
+    - rEX: **Everything EX does** + cards are closer together and passing a quest with DP doesn't give extra attack.
+    - uEX: **Everything rEX does** + super close cards.
++ NH: You can't deselect cards by clicking/typing them. Don't worry, there are other ways.
+    - rNH: Perfectly passing doesn't give bonus attack, the queue after the current quest (2 if any DP is active) is hidden, and cards remain selected after passing. **This does NOT apply the NH effect.** Additionally, quests become harder on average but have a high chance to share mods with the previous quest.
+    - uNH: **Everything rNH does** + zero attack from surge.
++ MS: The cards are lightly shuffled and do so again occasionally.
+    - rMS: The cards are more heavily shuffled on occasion and some swap positions after every pass.
+    - uMS: The cards are fully shuffled after every pass and even more heavily on occasion.
++ GV: An extra timer is added, when it reaches 0 it commits your current selection by force. It starts out pretty slow and gets faster but it can be reset several times per quest with SPIN/RESET and waits a bit if you don't select anything.
+    -rGV: The timer is now noticeably faster and can be reset fewer times per quest.
+    -uGV: The timer is now even faster and unforgiving (no grace/resets).
++ VL: The cards are spaced slightly further apart, but each one takes two inputs to select.
+    - rVL: The cards are even further apart, but take four inputs to select and deselect.
+    - uVL: The cards are super far apart and selecting, deselecting, and committing all take four inputs each.
++ DH: The quests are slightly harder and individual requested mods often appear out of order.
+    + rDH: **Everything DH does** + most combos with up to 4 mods and some with 5 are named. Average quest difficulty is lowered unless r/uNH is active.
+    + uDH: **Everything rDH does** + quests appear scrambled with the first and last letter being the same. 
++ IN: Cards are flipped to their backs by default and spin horizontally when selected. Additionally, quests aren't colored and hints appear less often.
+    - rIN: **Everything IN does** except card spinning and hints. Additionally, quests fade (faster over time) but reappear translucent if you submit the wrong combo.
+    -uIN: **Everything rIN does** but quests don't reappear. _Be prepared._
++ AS: You can use your keyboard, but cards burn when selected. If you select a burnt card, you are "wounded" with a couple extra card flips that disregard any burns and don't create them. Burns heal over time and with every commit.
+    - rAS: **Everything AS does** but wounds don't heal with time or wrong commits, and flip 4 cards each.
+    - uAS: **Everything rAS does** but you DIE if you touch a burn. If any DP is active, wounding kills the active player and flips 4 cards. Be careful~
++ DP: ~~DP and two different players whaaaa~~ Your HP bar is doubled and split in two. You are only ever either the left side or the right side, and the two are fully independent of each other. Gameplay affects the half that is focused - you can switch halves at any time by flipping the DP card or passing the second quest. If one 
