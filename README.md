@@ -156,20 +156,20 @@ _"It's funny to still call it a 'wound' in uAS."_
 This is your goodbye to the Zenith Tower. Given unlimited health, you must reach Floor 10 once while you are assessed based on your performance. There will be no mods or fatigue - just a final climb and the building anticipation of playing your first matches in the League. After reaching Floor 10, you can check your (very roughly) estimated CR and other stats in the respective page.
 
 <details>
-    <summary> (SPOILER) How can you increase your estimated CR? </summary>
+<summary>
+(SPOILER) How can you increase your estimated CR?
+</summary>
+You can practice with ZC if you don't feel ready to enter the League with your current skill. Now, onto what the calibration tracks:
 
-    You can practice with ZC if you don't feel ready to enter the League with your current skill. Now, onto what the calibration tracks:
+First and foremost, not dying. Even though you are invincible, your health can still reach 0 and the calibration will take note of when, how many times, and how long you did so for.
 
-    First and foremost, not dying. Even though you are invincible, your health can still reach 0 and the calibration will take note of when, how many times, and how long you did so for.
+If you manage to enter GIGASPEED and *especially* TERASPEED, you will be seen as more skilled and will be ranked even higher if you reach Floor 10 with either.
 
-    If you manage to enter GIGASPEED and *especially* TERASPEED, you will be seen as more skilled and will be ranked even higher if you reach Floor 10 with either.
+The amount of time you spend is very important, especially given the above. The longer you take, the lower ranked you will be. Speed is highly rewarded.
 
-    The amount of time you spend is very important, especially given the above. The longer you take, the lower ranked you will be. Speed is highly rewarded.
+Having a higher rate of perfect passes will increase your estimated CR. Not the number, the percentage - I see you, plonkers.
 
-    Having a higher rate of perfect passes will increase your estimated CR. Not the number, the percentage - I see you, plonkers.
-
-    While less considered, b2b is still a factor that contributes to your estimation. The more you manage to build at once, the better.
-
+While less considered, b2b is still a factor that contributes to your estimation. The more you manage to build at once, the better.
 </details>
 
 ### Clicking the League
