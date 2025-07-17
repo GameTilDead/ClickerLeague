@@ -9,7 +9,7 @@ NOTE: If you have little or no experience with Zenith Clicker or TETR.IO's Quick
 **Clicker League** is a game inspired by QP2's mod selection screen, but more directly by Zenith Clicker. It essentially recreates TETR.IO's Tetra League with Zenith Clicker's mechanics and [other stuff I came up with at 3:30 one night in the tetrio discord](https://discord.com/channels/673303546107658242/1345623182513541174/1359432208871325697).
 Much is shared between the three games, but this is a derivative of a fangame of a mechanic within one part of a single modern Tetris game. Some familiarity has to be maintained, obviously.
 
-Powered by Phaser/Python (but also JS since I learned a bit of that too) ~~because I didn't know Lua until seeing and writing ZC code lol~~
+Powered by Phaser/Python ~~and js. thanks a lot chatgpt~~
 
 ## Credits
 GameTilDead - Lead Producer
@@ -88,7 +88,7 @@ break: Reset b2b by making a mistake before submitting the correct combo
 //
 _"You don't wanna break before reaching 4 b2b, that just wastes time."_
 
-burn: Card effect in AS where, if you flip it, other cards get flipped
+burn: Card effect in (r/u)AS where, if you flip it, other cards get flipped
 //
 _"Most players who don't know **real magic** find it impossible to undo the consequences of flipping a burnt card in rAS."_
 
@@ -148,7 +148,7 @@ tank: Take damage, especially if by choice
 //
 _"If you see your opponent send a strong attack while struggling, it's sometimes best to tank it and counterattack instead of cancelling it out."_
 
-wound: The result of flipping a burnt card in rAS
+wound: The result of flipping a burnt card in (r/u)AS
 //
 _"It's funny to still call it a 'wound' in uAS."_
 
