@@ -229,8 +229,8 @@ With combos out of the way, here's what each mod actually does:
     - rMS: The cards are more heavily shuffled on occasion and some swap positions after every pass.
     - uMS: The cards are fully shuffled after every pass and even more heavily on occasion.
 + GV: An extra timer is added, when it reaches 0 it commits your current selection by force. It starts out pretty slow and gets faster but it can be reset several times per quest with SPIN/RESET and waits a bit if you don't select anything.
-    -rGV: The timer is now noticeably faster and can be reset fewer times per quest.
-    -uGV: The timer is now even faster and unforgiving (no grace/resets).
+    - rGV: The timer is now noticeably faster and can be reset fewer times per quest.
+    - uGV: The timer is now even faster and unforgiving (no grace/resets).
 + VL: The cards are spaced slightly further apart, but each one takes two inputs to select.
     - rVL: The cards are even further apart, but take four inputs to select and deselect.
     - uVL: The cards are super far apart and selecting, deselecting, and committing all take four inputs each.
