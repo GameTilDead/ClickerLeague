@@ -1,6 +1,7 @@
 import MenuScene from './scenes/menuscene.js';
 import RunScene from './scenes/runscene.js';
 
+// Phaser setup
 const config = {
     type: Phaser.AUTO,
     width: 960,

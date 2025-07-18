@@ -7,6 +7,7 @@ export default class RunScene extends Phaser.Scene {
         this.mods = data.mods || [];
     }
 
+    
     create() {
         this.add.text(320, 260, 'Running Match...', {
             fontSize: '24px', color: '#ffffff'

@@ -11,6 +11,7 @@ WS_PORT = int(os.getenv("WS_PORT", 8765))
 connected = {}
 pair_queue = []
 
+# Simple matchmaking and game server
 async def handler(ws):
     player = MatchmakingPlayer()
     connected[ws] = player
