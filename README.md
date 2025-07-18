@@ -246,3 +246,5 @@ With combos out of the way, here's what each mod actually does:
 + DP: ~~DP and two different players whaaaa~~ Your HP bar is doubled and split in two. You are only ever either the left side or the right side, and the two are fully independent of each other. Gameplay affects the half that is focused - you can switch halves at any time by flipping the DP card or passing the second quest. If one half's HP reaches 0, only the other half is playable and you can do a (set of) prompts to revive the other half to max HP. Additionally, once the DP time runs out, average the two sides' health and continue as one.
     - rDP: **Everything DP does** + when you send attack to the opponent, it also affects the inactive side of your HP bar. _You can kill the inactive side if you send too much attack without switching. Be careful._ Additionally, when reviving, this attack still goes to you. _You can forcefully lose the round like this._
     - uDP: **Everything rDP does** + switching sides by flipping the DP card is disabled, and attack affects the inactive side much more.
+
+    ### ...
