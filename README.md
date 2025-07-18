@@ -239,7 +239,7 @@ With combos out of the way, here's what each mod actually does:
     + uDH: **Everything rDH does** + quests appear scrambled with the first and last letter being the same. 
 + IN: Cards are flipped to their backs by default and spin horizontally when selected. Additionally, quests aren't colored and hints appear less often.
     - rIN: **Everything IN does** except card spinning and hints. Additionally, quests fade (faster over time) but reappear translucent if you submit the wrong combo.
-    -uIN: **Everything rIN does** but quests don't reappear. _Be prepared._
+    - uIN: **Everything rIN does** but quests don't reappear. _Be prepared._
 + AS: You can use your keyboard, but cards burn when selected. If you select a burnt card, you are "wounded" with a couple extra card flips that disregard any burns and don't create them. Burns heal over time and with every commit.
     - rAS: **Everything AS does** but wounds don't heal with time or wrong commits, and flip 4 cards each.
     - uAS: **Everything rAS does** but you DIE if you touch a burn. If any DP is active, wounding kills the active player and flips 4 cards. Be careful~
