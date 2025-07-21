@@ -7,9 +7,9 @@ NOTE: If you have little or no experience with Zenith Clicker or TETR.IO's Quick
 [Zenith Clicker](https://github.com/MrZ626/ZenithClicker)
 
 **Clicker League** is a game inspired by QP2's mod selection screen, but more directly by Zenith Clicker. It essentially recreates TETR.IO's Tetra League with Zenith Clicker's mechanics and [other stuff I came up with at 3:30 one night in the tetrio discord](https://discord.com/channels/673303546107658242/1345623182513541174/1359432208871325697).
-Much is shared between the three games, but this is a derivative of a fangame of a mechanic within one part of a single modern Tetris game. Some familiarity has to be maintained, obviously.
+Much is shared between the three games, but this is a derivative of a fangame (Zenith Clicker) of a mechanic (mods) within one part (Quick Play) of a single modern Tetris game (tetrio). Some familiarity has to be maintained, obviously.
 
-Powered by Phaser/Python ~~and js. thanks a lot chatgpt~~
+Powered by Python/Phaser (JS) ~~not Lua. Sorry MrZ~~
 
 ## Credits
 GameTilDead - Lead Producer
@@ -98,7 +98,7 @@ _"Committing wrong is worse each time you do it consecutively, and gets worse ov
 
 cs: "Climb speed"; a mechanic in calibration derived from ZC/tetrio that determines the altitude you gain over time and per correct submission, also known as "rank"
 //
-_"that super broken mechanic where you gain a ton of cs"_
+_"What's that super broken mechanic where you gain a ton of cs?"_
 
 combo: A combination of cards in any context.
 //
@@ -189,17 +189,33 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 \- Mod effects: After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
 
-\- Margin time: Another classic TL feature. Just like the source, things start happening after 2 minutes...
+\- Margin time: Another classic TL feature. Just like the source, things start happening after 2 minutes (italics are flavor text)...
 
-+ 2'00" - _It's harder to fight..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
-+ 2'30" - _You feel yourself losing focus..._
++ 2'00" - _A familiar feeling sets in..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
++ 2'30" - _You feel yourself losing focus..._ The color saturation starts decreasing ever so slightly, stopping at 62%.
 + 3'00" - _Vulnerability becomes more apparent..._ The surge divider becomes 7: `mods = floor(surge/7)`
 + 3'30" - _The power within both you and your opponent overwhelms you..._ The surge divider becomes 6.2.
 + 4'00" - _Your volition diminishes..._ Sent mods are buffed. Additionally, the surge divider is now 5.5.
-+ 4'30" - _Fighting feels like a heavy task..._
-+ 4'40" - _You can't keep up much longer..._
-+ 4'50" - _The end is near..._
-+ 5'00" - **_YOUR FINAL MOMENTS ARE UPON YOU._** One mistake can cost you the round.
++ 4'30" - _Fighting feels like a heavy task..._ Everything is stronger.
++ 4'40" - _You can't keep up much longer..._ Quests are harder.
++ 4'50" - _The end is near..._ Say your prayers, because...
++ 5'00" - **_YOUR FINAL MOMENTS ARE UPON YOU._** Everything that happens is in the spoiler below. Good luck.
+<details>
+<summary>
+(SPOILER) What exactly happens after 5 minutes?
+</summary>
+---
+
+\- Surge divider is **4**.
+
+\- **B2B Chaining** is active. You gain additional damage multipliers after reaching certain b2b thresholds (same as tetrio's).
+
+\- **Mods are buffed one last time.** Base mods have their reverse effects instead.
+
+\- **Cursor speed is decreased** over time (linearly to 62% over the next minute).
+
+\- **AS is entirely disabled.** Instead, you gain a damage multiplier based on the current tier.
+</details>
 
 ## Mechanics
 ### Mods
@@ -224,7 +240,7 @@ With combos out of the way, here's what each mod actually does:
     - uEX: **Everything rEX does** + super close cards.
 + NH: You can't deselect cards by clicking/typing them. Don't worry, there are other ways.
     - rNH: Perfectly passing doesn't give bonus attack, the queue after the current quest (2 if any DP is active) is hidden, and cards remain selected after passing. **This does NOT apply the NH effect.** Additionally, quests become harder on average but have a high chance to share mods with the previous quest.
-    - uNH: **Everything rNH does** + zero attack from surge.
+    - uNH: **Everything rNH does** + _zero attack from surge_.
 + MS: The cards are lightly shuffled and do so again occasionally.
     - rMS: The cards are more heavily shuffled on occasion and some swap positions after every pass.
     - uMS: The cards are fully shuffled after every pass and even more heavily on occasion.
@@ -242,9 +258,10 @@ With combos out of the way, here's what each mod actually does:
     - uIN: **Everything rIN does** but quests don't reappear. _Be prepared._
 + AS: You can use your keyboard, but cards burn when selected. If you select a burnt card, you are "wounded" with a couple extra card flips that disregard any burns and don't create them. Burns heal over time and with every commit.
     - rAS: **Everything AS does** but wounds don't heal with time or wrong commits, and flip 4 cards each.
-    - uAS: **Everything rAS does** but you DIE if you touch a burn. If any DP is active, wounding kills the active player and flips 4 cards. Be careful~
+    - uAS: **Everything rAS does** but you DIE if you touch a burn. If any DP is active, wounding kills the active player and flips 4 cards. _Be careful~_
 + DP: ~~DP and two different players whaaaa~~ Your HP bar is doubled and split in two. You are only ever either the left side or the right side, and the two are fully independent of each other. Gameplay affects the half that is focused - you can switch halves at any time by flipping the DP card or passing the second quest. If one half's HP reaches 0, only the other half is playable and you can do a (set of) prompts to revive the other half to max HP. Additionally, once the DP time runs out, average the two sides' health and continue as one.
     - rDP: **Everything DP does** + when you send attack to the opponent, it also affects the inactive side of your HP bar. _You can kill the inactive side if you send too much attack without switching. Be careful._ Additionally, when reviving, this attack still goes to you. _You can forcefully lose the round like this._
     - uDP: **Everything rDP does** + switching sides by flipping the DP card is disabled, and attack affects the inactive side much more.
 
-    ### ...
+### Attack
+TODO
