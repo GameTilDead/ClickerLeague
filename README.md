@@ -185,7 +185,7 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 \-\-\-
 
-\- Garbage: You guessed it. It wouldn't be a TL crossover without that sweet oncoming 40 spike that dangles your survival feet in front of your eyes. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you must cancel it within two inputs (resetting if either is a pass, allowing for combo-cancelling) or take the respective amount of damage. For those familiar with ZC, there is a massive nerf to **all** attack, however opponents' tanked garbage will increase their incoming quest difficulty, slowing their rate of attack (beware the magicians here).
+\- Garbage: You guessed it. It wouldn't be a TL crossover without that sweet oncoming 40 spike that dangles your survival feet in front of your eyes. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent. Therefore, there is a massive nerf to **all** attack, however opponents' tanked garbage will increase their incoming quest difficulty, slowing their rate of attack.
 
 \- Mod effects: After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
 
@@ -263,5 +263,7 @@ With combos out of the way, here's what each mod actually does:
     - rDP: **Everything DP does** + when you send attack to the opponent, it also affects the inactive side of your HP bar. _You can kill the inactive side if you send too much attack without switching. Be careful._ Additionally, when reviving, this attack still goes to you. _You can forcefully lose the round like this._
     - uDP: **Everything rDP does** + switching sides by flipping the DP card is disabled, and attack affects the inactive side much more.
 
-### Attack
-TODO
+### Attack / Garbage
+If you've played TL before, you know that sent lines aren't immediately received - instead, they appear on the opponent's side with a slight delay inside of a sort of holding area ("garbage queue" if you want), which is emptied and taken by the opponent if they don't try to cancel the damage. The same is true for CL: each passed quest will do its damage only after it's been placed in the opponent's holding area and the opponent doesn't cancel it within the next input.
+
+That's not all though. Remember the mod sending? This works the exact same as normal attacks in that mods will also be sent as a form of "garbage" and can be cancelled by sending the same mods back. Mod garbage is its own thing and, no matter how hard you try, cannot be cancelled with normal attacks. The same is true in the other direction: mods can't do anything to stop normal attacks from lowering your HP.
