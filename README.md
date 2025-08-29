@@ -9,7 +9,7 @@ NOTE: If you have little or no experience with Zenith Clicker or TETR.IO's Quick
 **Clicker League** is a game inspired by QP2's mod selection screen, but more directly by Zenith Clicker. It essentially recreates TETR.IO's Tetra League with Zenith Clicker's mechanics and [other stuff I came up with at 3:30 one night in the tetrio discord](https://discord.com/channels/673303546107658242/1345623182513541174/1359432208871325697).
 Much is shared between the three games, but this is a derivative of a fangame (Zenith Clicker) of a mechanic (mods) within one part (Quick Play) of a single modern Tetris game (tetrio). Some familiarity has to be maintained, obviously.
 
-Powered by Python/Phaser (JS) ~~not Lua. Sorry MrZ~~
+Powered by Python, among other things ~~but not Lua. Sorry MrZ~~
 
 ## Credits
 GameTilDead - Lead Producer
