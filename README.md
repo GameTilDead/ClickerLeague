@@ -177,7 +177,7 @@ While less considered, b2b is still a factor that contributes to your estimation
 </details>
 
 ### Clicking the League
-NOTE: Given the current popularity of ZC and CL, it might be difficult or even impossible to find a good match sometimes. As the community grows, this will slowly be resolved (invite people to play if you enjoy CL!), but for now, you might have unfair matches.
+NOTE: Given the low player count of ZC and CL, it might be difficult or even impossible to find a good match sometimes. As the community grows, this will slowly be resolved (invite people to play if you enjoy CL!), but for now, you might have unfair matches.
 
 After calibrating, queue up with the big button to find your first match! Once an opponent is found, the two of you will be set to play in a first to X match with X being determined from the (higher-)ranked opponent. The number of points required to win is determined just like in TETR.IO's Tetra League: 3 if the highest rank of the two players is below S-, 5 if highest rank is between S- and SS, and 7 if highest rank is above SS. If both players are unranked, the number of required points will be set based on what each player got in calibration. Peak ranks are not considered, so you can switch between FT3/FT5 or FT5/FT7 matches after the respective demotion.
 
