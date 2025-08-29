@@ -185,18 +185,18 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 \-\-\-
 
-\- Garbage: You guessed it. It wouldn't be a TL crossover without that sweet oncoming 40 spike that dangles your survival feet in front of your eyes. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent. Therefore, there is a massive nerf to **all** attack, however opponents' tanked garbage will increase their incoming quest difficulty, slowing their rate of attack.
+\- Garbage: You guessed it. It wouldn't be a TL crossover without that sweet oncoming 40 spike that dangles your survival feet in front of your eyes. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent, therefore, attack produced from surges is nerfed.
 
 \- Mod effects: After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
 
 \- Margin time: Another classic TL feature. Just like the source, things start happening after 2 minutes (italics are flavor text)...
 
-+ 2'00" - _A familiar feeling sets in..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
++ 2'00" - _Your weakness starts showing..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
 + 2'30" - _You feel yourself losing focus..._ The color saturation starts decreasing ever so slightly, stopping at 62%.
-+ 3'00" - _Vulnerability becomes more apparent..._ The surge divider becomes 7: `mods = floor(surge/7)`
-+ 3'30" - _The power within both you and your opponent overwhelms you..._ The surge divider becomes 6.2.
++ 3'00" - _It could hit you at any second..._ The surge divider becomes 7: `mods = floor(surge/7)`
++ 3'30" - _Each sound becomes frightening..._ The surge divider becomes 6.2.
 + 4'00" - _Your volition diminishes..._ Sent mods are buffed. Additionally, the surge divider is now 5.5.
-+ 4'30" - _Fighting feels like a heavy task..._ Everything is stronger.
++ 4'30" - _Fighting is becoming a heavy task..._ Everything is stronger.
 + 4'40" - _You can't keep up much longer..._ Quests are harder.
 + 4'50" - _The end is near..._ Say your prayers, because...
 + 5'00" - **_YOUR FINAL MOMENTS ARE UPON YOU._** Everything that happens is in the spoiler below. Good luck.
@@ -214,7 +214,7 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 \- **Cursor speed is decreased** over time (linearly to 62% over the next minute).
 
-\- **AS is entirely disabled.** Instead, you gain a damage multiplier based on the current tier.
+\- **Keyboard is disabled.** Instead, you gain a damage multiplier based on the current tier.
 </details>
 
 ## Mechanics
@@ -259,7 +259,7 @@ With combos out of the way, here's what each mod actually does:
 + AS: You can use your keyboard, but cards burn when selected. If you select a burnt card, you are "wounded" with a couple extra card flips that disregard any burns and don't create them. Burns heal over time and with every commit.
     - rAS: **Everything AS does** but wounds don't heal with time or wrong commits, and flip 4 cards each.
     - uAS: **Everything rAS does** but you DIE if you touch a burn. If any DP is active, wounding kills the active player and flips 4 cards. _Be careful~_
-+ DP: ~~DP and two different players whaaaa~~ Your HP bar is doubled and split in two. You are only ever either the left side or the right side, and the two are fully independent of each other. Gameplay affects the half that is focused - you can switch halves at any time by flipping the DP card or passing the second quest. If one half's HP reaches 0, only the other half is playable and you can do a (set of) prompts to revive the other half to max HP. Additionally, once the DP time runs out, average the two sides' health and continue as one.
++ DP: ~~DP and two different players bwaaa~~ Your HP bar is doubled and split in two. You are only ever either the left side or the right side, and the two are fully independent of each other. Gameplay affects the half that is focused - you can switch halves at any time by flipping the DP card or passing the second quest. If one half's HP reaches 0, only the other half is playable and you can do a (set of) prompts to revive the other half to max HP. Additionally, once the DP time runs out, average the two sides' health and continue as one.
     - rDP: **Everything DP does** + when you send attack to the opponent, it also affects the inactive side of your HP bar. _You can kill the inactive side if you send too much attack without switching. Be careful._ Additionally, when reviving, this attack still goes to you. _You can forcefully lose the round like this._
     - uDP: **Everything rDP does** + switching sides by flipping the DP card is disabled, and attack affects the inactive side much more.
 
