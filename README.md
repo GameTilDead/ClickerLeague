@@ -185,11 +185,11 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 \-\-\-
 
-\- Garbage: You guessed it. It wouldn't be a TL crossover without that sweet oncoming 40 spike that dangles your survival feet in front of your eyes. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent, therefore, attack produced from surges is nerfed.
+\- Garbage: You guessed it. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent, therefore, attack produced from surges is nerfed.
 
 \- Mod effects: After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
 
-\- Margin time: Another classic TL feature. Just like the source, things start happening after 2 minutes (italics are flavor text)...
+\- Margin time: Another classic TL feature. Just like the source, things start happening after 2 minutes...
 
 + 2'00" - _Your weakness starts showing..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
 + 2'30" - _You feel yourself losing focus..._ The color saturation starts decreasing ever so slightly, stopping at 62%.

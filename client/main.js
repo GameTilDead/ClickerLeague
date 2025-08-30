@@ -1,5 +1,5 @@
-import MenuScene from './scenes/menuscene.js';
-import RunScene from './scenes/runscene.js';
+import MenuScene from './scenes/MainMenuScene.js';
+import RunScene from './scenes/RunScene.js';
 
 // Phaser setup
 const config = {

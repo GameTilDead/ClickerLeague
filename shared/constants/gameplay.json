@@ -1,0 +1,120 @@
+{
+    "baseHP": 20,
+
+    "damage": {
+        "perfect": 2,
+        "imperfect": 1,
+        "dpEcho": { "reverse": 0.26, "ultra": 0.40 },
+        "secondQuest": { "attackScale": 0.75, "noB2BGain": true }
+    },
+
+    "healing": {
+        "onPassMultiplier": 0.25,
+        "surge": {
+            "mode": "healFirstThenHarmonic",
+            "harmonicBase": 1.0,
+            "harmonicStep": 0.1
+        }
+    },
+
+    "timers": {
+        "gv": {
+            "normal": [9.0, 8.0, 7.5, 7.0, 6.5, 6.0, 5.5, 5.0, 4.5, 4.0],
+            "reverse": [3.2, 3.0, 2.8, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0],
+            "ultra":   [3.2, 3.0, 2.8, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1, 2.0],
+            "graceMs": 2600,
+            "stepPerQuests": 10
+        },
+        "damage": {
+            "tiers": [
+                { "full": 15.0, "cycle": 5.0,  "incorrect": 1 },
+                { "full": 13.0, "cycle": 5.0,  "incorrect": 2 },
+                { "full": 11.0, "cycle": 4.5,  "incorrect": 2 },
+                { "full": 10.0, "cycle": 4.0,  "incorrect": 2 },
+                { "full":  9.0, "cycle": 3.5,  "incorrect": 3 },
+                { "full":  8.0, "cycle": 3.5,  "incorrect": 3 },
+                { "full":  7.0, "cycle": 3.0,  "incorrect": 3 },
+                { "full":  6.0, "cycle": 2.5,  "incorrect": 3 },
+                { "full":  5.5, "cycle": 2.5,  "incorrect": 4 },
+                { "full":  5.0, "cycle": 2.0,  "incorrect": 4 }
+            ],
+            "stepPerQuests": 10,
+            "refill": {
+                "perfect": 0.5,
+                "perfectSecond": 0.25,
+                "imperfect": 0.33,
+                "imperfectSecond": 0.20
+            }
+        }
+    },
+
+    "surge": {
+        "dividerTimeline": [
+            { "time": 0,   "divider": 8   },
+            { "time": 180, "divider": 7   },
+            { "time": 210, "divider": 6.2 },
+            { "time": 240, "divider": 5.5 },
+            { "time": 270, "divider": 5   },
+            { "time": 300, "divider": 4   }
+        ]
+    },
+
+    "modDurations": {
+        "base": 26000,
+        "perfectReduce": 1260,
+        "imperfectReduce": 626,
+        "at4m": 36000,
+        "at4_5m": 48000,
+        "at5m": 62000
+    },
+
+    "dp": {
+        "bothHalvesMustDie": true,
+        "revive": {
+            "basePrompts": 1,
+            "questMilestones": [26, 62],
+            "cap": 3
+        },
+        "secondQuest": {
+            "noB2B": true,
+            "attackScale": 0.75
+        },
+        "switching": {
+            "onSecondQuest": true,
+            "onCardFlip": true,
+            "ultraBlocksCardFlip": true
+        }
+    },
+
+    "quest": {
+        "avgModsByQuest": [
+            { "passed": 0,   "avg": 1.2 },
+            { "passed": 15,  "avg": 1.4 },
+            { "passed": 30,  "avg": 1.6 },
+            { "passed": 45,  "avg": 1.8 },
+            { "passed": 60,  "avg": 2.0 },
+            { "passed": 75,  "avg": 2.2 },
+            { "passed": 90,  "avg": 2.4 },
+            { "passed": 105, "avg": 2.6 },
+            { "passed": 120, "avg": 2.8 },
+            { "passed": 135, "avg": 3.0 }
+        ],
+        "post2mIncreasePerSec": 0.0062,
+        "bonusAt4_40": 0.26,
+        "maxModsInitial": 5,
+        "maxModsAfter5m": 6,
+        "hint": {
+            "baseDelayMs": 1000,
+            "exDelayMs": 2600,
+            "flashHzDefault": 4.0,
+            "flashHzIN": 0.5,
+            "disableIfReverseOrUltraIN": true
+        }
+    },
+
+    "mods": {
+        "selection": {
+            "weightedByRecentQuestMods": true
+        }
+    }
+}
