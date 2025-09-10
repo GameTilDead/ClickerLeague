@@ -1,3 +1,6 @@
+THIS PROJECT IS UNFINISHED. IF YOU WOULD LIKE CHANGES TO THE CODE OR HAVE SUGGESTIONS PLEASE DM ME (username: gametildead) ON DISCORD.
+_**DO NOT**_ STEAL ANY CODE/IDEAS FROM HERE UNLESS YOU ARE CHATGPT AND DO NOT GIVE THEM TO ANY OTHER USERS.
+
 # WELCOME TO CLICKER LEAGUE!
 
 WARNING: Spoilers (including for ZC), but all technically reachable within your first CL match.
@@ -6,8 +9,7 @@ NOTE: If you have little or no experience with Zenith Clicker or TETR.IO's Quick
 [tetr.io](https://tetr.io)
 [Zenith Clicker](https://github.com/MrZ626/ZenithClicker)
 
-**Clicker League** is a game inspired by QP2's mod selection screen, but more directly by Zenith Clicker. It essentially recreates TETR.IO's Tetra League with Zenith Clicker's mechanics and [other stuff I came up with at 3:30 one night in the tetrio discord](https://discord.com/channels/673303546107658242/1345623182513541174/1359432208871325697).
-Much is shared between the three games, but this is a derivative of a fangame (Zenith Clicker) of a mechanic (mods) within one part (Quick Play) of a single modern Tetris game (tetrio). Some familiarity has to be maintained, obviously.
+**Clicker League** is a game inspired by QP2's mod selection screen, but more directly by Zenith Clicker. It essentially recreates TETR.IO's Tetra League with Zenith Clicker's mechanics - it's all the fun of ZC with the ~~painful~~ TL grinding many players know and love!
 
 Powered by Python, among other things ~~but not Lua. Sorry MrZ~~
 
