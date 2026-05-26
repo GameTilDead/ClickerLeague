@@ -154,27 +154,6 @@ wound: The result of flipping a burnt card in (r/u)AS
 //
 _"It's funny to still call it a 'wound' in uAS."_
 
-### Calibration
-This is your goodbye to the Zenith Tower. Given unlimited health, you must reach Floor 10 once while you are assessed based on your performance. There will be no mods or fatigue - just a final climb and the building anticipation of playing your first matches in the League. After reaching Floor 10, you can check your (very roughly) estimated CR and other stats in the respective page.
-
-<details>
-<summary>
-(SPOILER) How can you increase your estimated CR?
-</summary>
----
-
-You can practice with ZC if you don't feel ready to enter the League with your current skill. Now, onto what the calibration tracks:
-
-First and foremost, not dying. Even though you are invincible, your health can still reach 0 and the calibration will take note of when, how many times, and how long you did so for.
-
-If you manage to enter GIGASPEED and *especially* TERASPEED, you will be seen as more skilled and will be ranked even higher if you reach Floor 10 with either.
-
-The amount of time you spend is very important, especially given the above. The longer you take, the lower ranked you will be. Speed is highly rewarded.
-
-Having a higher rate of perfect passes will increase your estimated CR. Not the number, the percentage - I see you, plonkers.
-
-While less considered, b2b is still a factor that contributes to your estimation. The more you manage to build at once, the better.
-
 ---
 </details>
 
@@ -190,22 +169,6 @@ The goal of the game is simple: select the correct cards to match the bottommost
 \- Garbage: You guessed it. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent, therefore, attack produced from surges is nerfed.
 
 \- Mod effects: After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
-
-\- Margin time: Another classic TL feature. Just like the source, things start happening after 2 minutes...
-
-+ 2'00" - _Your weakness starts showing..._ Quests will gradually become more difficult and damage from any source will start becoming larger.
-+ 2'30" - _You feel yourself losing focus..._ The color saturation starts decreasing ever so slightly, stopping at 62%.
-+ 3'00" - _It could hit you at any second..._ The surge divider becomes 7: `mods = floor(surge/7)`
-+ 3'30" - _Each sound becomes frightening..._ The surge divider becomes 6.2.
-+ 4'00" - _Your volition diminishes..._ Sent mods are buffed. Additionally, the surge divider is now 5.5.
-+ 4'30" - _Fighting is becoming a heavy task..._ Everything is stronger.
-+ 4'40" - _You can't keep up much longer..._ Quests are harder.
-+ 4'50" - _The end is near..._ Say your prayers, because...
-+ 5'00" - **_YOUR FINAL MOMENTS ARE UPON YOU._** Everything that happens is in the spoiler below. Good luck.
-<details>
-<summary>
-(SPOILER) What exactly happens after 5 minutes?
-</summary>
 ---
 
 \- Surge divider is **4**.
