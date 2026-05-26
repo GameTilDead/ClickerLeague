@@ -163,9 +163,11 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 \-\-\-
 
-\- Garbage: You guessed it. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent, therefore, attack produced from surges is nerfed.
+1: Garbage ~ You guessed it. Just like in TL, any attack sent by the opponent takes a bit to reach your side - when it arrives, you can cancel some with your next input (moving the mouse doesn't count), or take the respective amount of damage. For those familiar with ZC, you might think it's impossible to have a good round with the kind of attack being sent, therefore, attack produced from surges is nerfed.
 
-\- Mod effects: After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
+2: Mod effects ~ After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
+
+3: ...work in progress.
 ---
 
 \- Surge divider is **4**.
