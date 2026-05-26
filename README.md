@@ -168,6 +168,8 @@ The goal of the game is simple: select the correct cards to match the bottommost
 2: Mod effects ~ After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
 
 3: ...work in progress.
+
+
 ---
 
 \- Surge divider is **4**.
