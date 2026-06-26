@@ -152,7 +152,6 @@ wound: The result of flipping a burnt card in (r/u)AS
 _"It's funny to still call it a 'wound' in uAS."_
 
 ---
-</details>
 
 ### Clicking the League
 NOTE: Given the low player count of ZC and CL, it might be difficult or even impossible to find a good match sometimes. As the community grows, this will slowly be resolved (invite people to play if you enjoy CL!), but for now, you might have unfair matches.
@@ -167,21 +166,11 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 2: Mod effects ~ After reaching at least b2b x8, you can break to force mods onto your opponent. They are determined somewhat randomly, but if you pay attention to your past quests you might be able to force the more difficult ones. The number of mods sent is determined by `mods = floor(surge/8)`, and received effects last for a base 26s and shorten per pass (-1260ms/perfect, -626ms/imperfect).
 
-3: ...work in progress.
+3: B2B Balancing ~ To prevent any decent surge from instakilling or immediately requiring a countersurge, each b2b increase will have less of an effect. The formula for the surge attack produced from each single b2b is 1/(0.9 + n), and the entire surge takes the sum of each term for the length of the streak. Additionally, consecutive quests passed perfectly do not send extra attack.
 
-
----
-
-\- Surge divider is **4**.
-
-\- **B2B Chaining** is active. You gain additional damage multipliers after reaching certain b2b thresholds (same as tetrio's).
-
-\- **Mods are buffed one last time.** Base mods have their reverse effects instead.
-
-\- **Cursor speed is decreased** over time (linearly to 62% over the next minute).
-
-\- **Keyboard is disabled.** Instead, you gain a damage multiplier based on the current tier.
-</details>
+(under consideration:)
+4: being able to commit any of the visible combos - having DP could hold b2b instead of increasing it when passing the top (or middle) quest
+5: starting each round with different mods, with increasing possibility for extra and/or (ultra) reversed mods
 
 ## Mechanics
 ### Mods
@@ -233,3 +222,5 @@ With combos out of the way, here's what each mod actually does:
 If you've played TL before, you know that sent lines aren't immediately received - instead, they appear on the opponent's side with a slight delay inside of a sort of holding area ("garbage queue" if you want), which is emptied and taken by the opponent if they don't try to cancel the damage. The same is true for CL: each passed quest will do its damage only after it's been placed in the opponent's holding area and the opponent doesn't cancel it within the next input.
 
 That's not all though. Remember the mod sending? This works the exact same as normal attacks in that mods will also be sent as a form of "garbage" and can be cancelled by sending the same mods back. Mod garbage is its own thing and, no matter how hard you try, cannot be cancelled with normal attacks. The same is true in the other direction: mods can't do anything to stop normal attacks from lowering your HP.
+
+work in progress...
