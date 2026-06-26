@@ -168,8 +168,11 @@ The goal of the game is simple: select the correct cards to match the bottommost
 
 3: B2B Balancing ~ To prevent any decent surge from instakilling or immediately requiring a countersurge, each b2b increase will have less of an effect. The formula for the surge attack produced from each single b2b is 1/(0.9 + n), and the entire surge takes the sum of each term for the length of the streak. Additionally, consecutive quests passed perfectly do not send extra attack.
 
+
 (under consideration:)
+
 4: being able to commit any of the visible combos - having DP could hold b2b instead of increasing it when passing the top (or middle) quest
+
 5: starting each round with different mods, with increasing possibility for extra and/or (ultra) reversed mods
 
 ## Mechanics
